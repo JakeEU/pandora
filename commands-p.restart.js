@@ -4,6 +4,7 @@ exports.run = (client, message, args) => {
   message.channel.send("Restarting now! <:pandoraCute:410722647056449547>").then(m => {
       client.destroy().then(() => {
         process.exit(1)
+        message.channel.send("I am back up!")
       })
     })
   }
