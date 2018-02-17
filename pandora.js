@@ -62,4 +62,4 @@ client.on("message", message => {
     };
     process.on('unhandledRejection', err => console.error(`Uncaught Promise Rejection: \n${err.stack}`));
 });
-client.login(TOKEN)
+client.login(process.env.BOT_TOKEN)
