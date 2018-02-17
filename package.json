@@ -1,0 +1,23 @@
+{
+  "name": "pandora",
+  "version": "1.0.0",
+  "description": "Multi purpose bot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "discord"
+  ],
+  "author": "Jake",
+  "license": "ISC",
+  "dependencies": {
+    "define-word": "^1.0.5",
+    "discord.js": "^11.3.0",
+    "number": "0.0.1",
+    "quick.db": "^3.0.3",
+    "random-number": "0.0.9",
+    "weather-js": "^2.0.0"
+  }
+}
