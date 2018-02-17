@@ -1,8 +1,6 @@
 const Discord = require ('discord.js');
 
-const TOKEN = "Mzk3ODkwMjg4MTgzNTQxNzgw.DS2kNA.xQFv_rTIP3_PG6aFflWCwLE12X8";
-
-const prefix = "p.";
+const { TOKEN, prefix} = require('./config');
 
 const client = new Discord.Client();
 
@@ -62,4 +60,4 @@ client.on("message", message => {
     };
     process.on('unhandledRejection', err => console.error(`Uncaught Promise Rejection: \n${err.stack}`));
 });
-client.login(process.env.BOT_TOKEN)
+client.login(TOKEN)
