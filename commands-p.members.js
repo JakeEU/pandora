@@ -1,4 +1,4 @@
-const Disocrd = require ('discord.js')
+const Discord = require ('discord.js')
 module.exports.run = (client, message, args) => {
         const embed3 = new Discord.RichEmbed()
         embed3.setColor(0xffa5f1)
