@@ -1,4 +1,4 @@
-const Disocrd = require ('discord.js')
+const Discord = require ('discord.js')
 module.exports.run = (client, args, message) => {
         const hug = ["https://imgur.com/a/2SmjU", "https://imgur.com/a/KayQ3", "http://i.imgur.com/pME21N2.gif" ,"https://i.imgur.com/kvTu3tb.jpg",]
         const rn = require('random-number')
