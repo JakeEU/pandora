@@ -1,5 +1,5 @@
 const Discord = require ('discord.js')
-module.exports.run = (client, message, args) => {
+module.exports.run = (client, message, args, definition) => {
         let word = message.content.split(' ').splice(1).join(' ');
         let result = "";
         let array = definition.define(word).definitions
