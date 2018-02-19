@@ -1,1 +1,8 @@
-
+const Discord = require ('discord.js')
+module.exports.run = (client, message, args) => {
+        const invite = new Discord.RichEmbed()
+        .setColor(0xffa5f1)
+        .addField('Invite me here!',
+        'You can invite me to your server here [invite](https://discordapp.com/oauth2/authorize?client_id=397890288183541780&permissions=8&scope=bot)\nJoin my support server [here](https://discord.gg/UVyR3FZ)')
+        message.channel.send(invite)
+    };
