@@ -1,4 +1,4 @@
-const Disocrd = require ('discord.js')
+const Discord = require ('discord.js')
 module.exports.run = (client, message, args) => {
         String.prototype.replaceAll = function(search, replacement) {
             var target = this;
